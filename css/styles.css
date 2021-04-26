@@ -1,0 +1,45 @@
+.navbar{ background:#050505;}
+
+.nav-link , .navbar-brand{ 
+    color: #f4f4f4; 
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+
+.navbar-brand {
+    font-size: x-large;
+}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ color: red; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color: black ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #0f0f0f;
+ background:#000000;
+ color:#fff;
+}
+
