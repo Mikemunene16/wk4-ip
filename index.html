@@ -33,16 +33,13 @@
            <div class="collapse navbar-collapse " id="navbarSupportedContent">     
                <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="#bestsellers">Best Sellers</a>        
+                    <a class="nav-link" data-value="bestsellers" href="#bestsellers">Best Sellers</a>        
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio"href="#">Special Offers</a> 
-                 </li>
                  <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio"href="#">Contact Us</a>
+                    <a class="nav-link " data-value="order"href="#order">Order Now</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio"href="#">Order Now</a>
+                    <a class="nav-link " data-value="contact"href="#contact">Contact Us</a>
                 </li>
                </ul>
            </div>
@@ -64,11 +61,19 @@
       </header>
 
       <div class="opacity">
-        <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="bestsellers">
+        <div class="container carousel slide carousel-multi-item"  data-ride="carousel" id="bestsellers">
           <div class="controls-top "> 
             <h2 id="best-title">Best Sellers</h2>
           </div>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#bestsellers" data-slide-to="0" class="active"></li>
+            <li data-target="#bestsellers" data-slide-to="1"></li>
+          </ol>
+  
           <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-4">
@@ -97,8 +102,10 @@
                     </div>
                   </div>
                 </div>
-  
               </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
               <div class="carousel-item ">
                 <div class="row">
                   <div class="col-md-4">
@@ -127,14 +134,28 @@
                     </div>
                   </div>
                 </div>
+                <!--/.Second slide-->
   
               </div>
             </div> 
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#best-sellers" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#bestsellers" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
           </div>
         </div>
+        
       </div>
 
+
+
       
+  
+
+
 
 
 <script src="js/app.js"></script>      

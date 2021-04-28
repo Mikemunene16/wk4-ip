@@ -1,3 +1,5 @@
-document.querySelector("#bestsellers > div.carousel-inner > div.carousel-item.active")
-
-document.querySelector("#bestsellers > div.carousel-inner > div:nth-child(2)")
+$(document).ready(function() {
+    $('#bestsellers').carousel({
+        interval: 5000
+    })
+});

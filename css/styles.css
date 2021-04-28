@@ -4,6 +4,7 @@ html {
 
 .navbar{ background:#050505;}
 
+
 .nav-link , .navbar-brand{ 
     color: #f4f4f4; 
     cursor: pointer;
@@ -62,6 +63,7 @@ a.navbar-brand {
    .bounce {
       text-align: center;
       animation: bounce 2s infinite;
+      padding: 20px;
    }
 
    @keyframes bounce {
@@ -107,7 +109,20 @@ a.navbar-brand {
   }
 
   .opacity{
-    background-color: black;
+    background-color:black;
     opacity: 0.9;
   }
-  
+
+
+  @media only screen and (max-width: 485px){
+    .flex-xs-column {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .section {
+      padding-top: 30px;
+  }
+  .flex-xs-column {
+      flex-direction: column;
+  }}
