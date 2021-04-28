@@ -127,4 +127,6 @@ a.navbar-brand {
       flex-direction: column;
   }}
 
-  
+  #make-order {
+    background-color: white;
+  }
