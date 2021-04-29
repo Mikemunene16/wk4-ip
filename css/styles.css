@@ -176,6 +176,16 @@ a.navbar-brand:hover{ color: orange;}
     color: white;
   }
 
+  #contact {
+    background-color: orange;
+  }
+
+  #contact h2 {
+    text-align:justify;
+    color: black;
+    font-weight: 800;
+  }
+
   
 
   @media only screen and (max-width: 485px){
