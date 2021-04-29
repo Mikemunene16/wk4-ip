@@ -15,6 +15,7 @@ This is a pizza delivery app that allows the user to select the pizza type, size
 - Open `index.html` on your browser.
 
 ##### Live link
+ https://mikemunene16.github.io/wk4-ip/
 
 
 ## Development
