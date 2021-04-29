@@ -1,5 +1,5 @@
 # Luigi's Pizza
- Creating a website where a user can choose and order a pizza.
+ Creating a website where a user can order and choose the pizza and toppings of their choice
 ## Prerequisites
 About
 This is a pizza delivery app that allows the user to select the pizza type, size, crust and toppings then the application calculates the price plus delivery fee
